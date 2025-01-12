@@ -48,6 +48,14 @@ class _HomeScreenState extends State<HomeScreen> {
                   color: WeatherColors.white,
                 ),
               ),
+              Text(
+                "ForeCasts",
+                style: TextStyle(
+                  fontSize: 60.sp,
+                  fontWeight: FontWeight.bold,
+                  color: WeatherColors.orange,
+                ),
+              ),
               SizedBox(height: 20.h),
               SizedBox(height: 20.h),
               GestureDetector(
